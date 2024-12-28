@@ -237,10 +237,16 @@
 }
 .arriba {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 .abajo {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 .outside {
@@ -268,7 +274,6 @@
 }
 .littletext {
   display: flex;
-  justify-content: start;
   flex-direction: column;
   margin-top: 1rem;
  
@@ -283,4 +288,180 @@
   font-family: "Unna", serif;
   font-weight: 400;
   font-style: italic;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  }
+  .scroll {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 350px;
+  }
+  .photo img {
+    width: 300px;
+    height: 300px;
+  }
+  .songs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .checkbox {
+    margin-bottom: 3rem;
+    width: 70%;
+  }
+  .scenes {
+    gap: 5rem;
+  }
+  .arriba {
+    gap: 5rem;
+
+  }
+  .abajo {
+    gap: 5rem;
+  }
+  .boxie {
+    width: 400px;
+    height: 260px;
+  }
+  video {
+    width: 320px;
+    height: 180px;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .boxie {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 908px) {
+  .boxie {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 748px) {
+  .scroll {
+    width: 80%;
+    height: 280px;
+  }
+  .photo img {
+    height: 250px;
+    width: 250px;
+  }
+  .songs {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 570px) {
+  .photo img {
+    height: 200px;
+    width: 200px;
+  }
+  .ttle {
+    font-size: 30px;
+  }
+  .boxie {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 495px) {
+  .scroll {
+    width: 90%;
+  }
+  .checkbox {
+    height: 100%;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 427px) {
+  .boxie {
+    width: 320px;
+  }
+  .scenes {
+    gap: 2rem;
+  }
+  .arriba {
+    gap: 2rem;
+  }
+  .abajo {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 401px) {
+  .scroll {
+    width: 95%;
+  }
+  .boxie {
+    width: 300px;
+    height: 250px;
+  }
+  video {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 378px) {
+  .ttle {
+    font-size: 20px;
+  }
+  .scroll {
+    width: 98%;
+  }
+  .songbox {
+    width: 95%;
+  }
+  .musicname {
+    font-size: 18px;
+  }
+  .content-modal {
+    width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  max-height: 350px;
+  height: 100%;
+  }
+}
+@media screen and (max-width: 355px) {
+ .checkbox {
+  width: 95%;
+ }
+ .chekie {
+  font-size: 14px;
+ }
+ .boxie {
+  width: 250px;
+  height: 200px;
+ }
+ video {
+  width: 230px;
+  
+ }
+ .photo img {
+  width: 180px;
+  height: 180px;
+ }
+ .scroll {
+  height: 200px;
+ }
+}
+@media screen and (max-width: 333px) {
+  .musicname {
+    font-size: 15px;
+  }
+  .artistname {
+    font-size: 12px;
+  }
+  .botonsong {
+    height: 40px;
+  }
 }
