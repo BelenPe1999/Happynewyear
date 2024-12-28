@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31/12/2024</title>
+    <link rel="shortcut icon" href="/foto/heart.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Solitreo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="up">
+        <h1 class="ttle">
+            HAPPY NEW YEAR MY LOVE!
+        </h1>
+    </header>
+    <main class="all">
+        <nav class="scroll">
+            <div class="photo">
+                <img src="/foto/casa.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="/foto/cute.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="/foto/espalda.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="/foto/espejo.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="/foto/manly.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="/foto/manos.jpg" alt="">
+            </div>
+        </nav>
+        <nav class="middle">
+            <div class="songs">
+                <div class="songbox">
+                    <h2 class="musicname">As Long As You Love Me</h2>
+                    <p class="artistname">Justin Bieber</p>
+                    <input type="range" id="progress1" value="0" max="100" step="1" />
+                    <button id="playPauseBtn1" class="botonsong">Play</button>
+                    <audio id="audioPlayer1" src="./musica/As Long As You Love Me - Justin Bieber (Lyrics).mp3"></audio>
+                  </div>
+                  
+                  <div class="songbox">
+                    <h2 class="musicname">Fall</h2>
+                    <p class="artistname">Justin Bieber</p>
+                    <input type="range" id="progress2" value="0" max="100" step="1" />
+                    <button id="playPauseBtn2" class="botonsong">Play</button>
+                    <audio id="audioPlayer2" src="./musica/Justin  Bieber - Fall - lyrics.mp3"></audio>
+                  </div>
+            </div>
+           
+            <div class="checkbox">
+                <div class="checkcheck">
+                    <p class="chekie">Meeting in life</p>
+                    <label>
+                        <input type="checkbox" checked class="imput">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="checkcheck">
+                    <p class="chekie">Loving each other</p>
+                    <label>
+                        <input type="checkbox" checked class="imput">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="checkcheck">
+                    <p class="chekie">Meeting in person</p>
+                    <label>
+                        <input type="checkbox" checked class="imput">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="checkcheck">
+                    <p class="chekie">Loving each other even more</p>
+                    <label>
+                        <input type="checkbox" checked class="imput">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="checkcheck">
+                    <p class="chekie">Living together</p>
+                    <label>
+                        <input type="checkbox"  class="imput">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="checkcheck">
+                    <p class="chekie">Being a family</p>
+                    <label>
+                        <input type="checkbox" class="imput" >
+                        <span></span>
+                    </label>
+                </div>
+            </div>
+        </nav>
+        <nav class="last">
+            <div class="readme">
+                <div class="boton-modal">
+                    <label for="btn-modal">Read Me</label>
+                </div>
+            </div>
+            <input type="checkbox" id="btn-modal">
+            <div class="container-modal">
+                <div class="content-modal">
+                    <div>
+                        <h2 class="inside">Happy New Year, my love.</h2>
+                        <p>Every year with you was special baby, but in this one we will create more amazing memories together. Thank you for being my partner in everything, for your love, and for making my days better and full of love. I can’t wait to see all the wonderful things waiting for us. I love you!</p>
+                    </div>
+                    <div class="btn-cerrar-container">
+                        <div class="btn-cerrar">
+                            <label for="btn-modal">Close</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <label for="btn-modal" class="cerrar-modal"></label>
+            <div class="scenes">
+                <h2 class="outside">Scenes</h2>
+                  <div class="arriba">
+                      <div class="boxie">
+                          <video src="/foto/bridgerton.mkv" controls></video>
+                          <div class="littletext">
+                            <h4 class="titulo">Bridgerton</h4>
+                          <p class="mini">S1-E8-55:10</p>
+                          </div>
+                      </div>
+                      <div class="boxie">
+                        <video src="/foto/tvd.mkv" controls></video>
+                        <div class="littletext">
+                            <h4 class="titulo">The vampire diaries</h4>
+                              <p class="mini">S6-E21-35:13</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="abajo">
+                      <div class="boxie">
+                        <video src="/foto/whms.mkv" controls></video>
+                        <div class="littletext">
+                          <h4 class="titulo">When Harry met Sally</h4>
+                          <p class="mini">Ending scene</p>
+                        </div>
+                      </div>
+                      <div class="boxie">
+                        <video src="/foto/lida.mkv" controls></video>
+                        <div class="littletext">
+                          <h4 class="titulo">Love, Rosie</h4>
+                          <p class="mini">1:25:23-48</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
